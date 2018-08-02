@@ -1,0 +1,20 @@
+// ===== Convert PX to EMs =====
+
+$sm-em: 35.38em; //  566px -- Small
+$md-em: 47.94em; //  767px -- Medium
+$lg-em: 61.94em; //  991px -- Large
+$xl-em: 74.94em; // 1199px -- Extra large
+
+// =====  MIN width variables  =====
+
+$sm-min: "min-width: " + $sm-em;
+$md-min: "min-width: " + $md-em;
+$lg-min: "min-width: " + $lg-em;
+$xl-min: "min-width: " + $xl-em;
+
+// =====  MAX width variables  =====
+
+$sm-max: "max-width: " + $sm-em;
+$md-max: "max-width: " + $md-em;
+$lg-max: "max-width: " + $lg-em;
+$xl-max: "max-width: " + $xl-em;
