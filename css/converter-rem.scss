@@ -1,0 +1,44 @@
+$rootSize: 16px;
+$fontRaleway: 'Raleway', sans-serif;
+
+@function rem ($target, $context: $rootSize) {
+  @return ($target / $context) * 1rem;
+}
+
+body {
+  font: 700 #{rem(60px)}/#{rem(70px)} $fontRaleway;
+}
+
+/*
+** REMs - each PX is 0.0625rem
+*/
+
+/*
+   0.0625rem =  1px
+    0.125rem =  2px
+   0.1875rem =  3px
+     0.25rem =  4px
+   0.3125rem =  5px
+    0.375rem =  6px
+   0.4375rem =  7px
+      0.5rem =  8px
+   0.5625rem =  9px
+    0.625rem = 10px
+*/
+
+/*
+** Percentages - each PX is 6.25%
+*/
+
+/*
+  100%      = 16px
+  106.25%   = 17px
+  112.50%   = 18px
+  118.75%   = 19px
+  125%      = 20px
+  131.25%   = 21px
+  137.50%   = 22px
+  143.75%   = 23px
+  150%      = 24px
+*/
+
