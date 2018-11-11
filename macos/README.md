@@ -9,16 +9,16 @@
 + [__Magnet__](http://magnet.crowdcafe.com)
 + [__MySQL Workbench__](https://www.mysql.com/products/workbench)
 + [__Parcel__](https://parcelapp.net)
++ [__Pritunl__](https://pritunl.com)
 + [__Screaming Frog SEO Spider__](https://www.screamingfrog.co.uk/seo-spider)
 + [__Sequel Pro__](https://www.sequelpro.com)
 + [__Slack__](https://slack.com)
 + [__Spotify__](https://www.spotify.com)
 + [__TeamViewer__](https://www.teamviewer.com)
 + [__Transmit__](https://panic.com/transmit)
++ [__VLC__](https://www.videolan.org)
 + [__Visual Studio Code__](https://code.visualstudio.com)
 + [__WhatsApp__](https://www.whatsapp.com)
-
-## Computer
 
 ### Display
 + __Resolution:__ 2560x1600
