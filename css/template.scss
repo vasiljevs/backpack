@@ -1,0 +1,90 @@
+/*
+** VARIABLES
+*/
+
+// PATH
+
+$path: '../img';
+
+// FONT FAMILY
+
+$fontAwesome:   'Font Awesome 5 Free';
+$fontRoboto:    'Roboto', sans-serif;
+
+// FONT SIZE
+
+$rootSize:      16px;
+$sizeSmall:     20px;
+$sizeMedium:    25px;
+$sizeLarge:     30px;
+
+// COLOR
+
+$white:         #FFF;
+$black:         #000;
+$starship:      #F5EC35;
+
+// GRADIENT
+
+$gradient: linear-gradient(180deg, #6eb1de 0%, #4ea6e0 100%);
+
+/*
+** FUNCTIONS
+*/
+
+@function rem ($target, $context: $rootSize) {
+  @return ($target / $context) * 1rem;
+}
+
+/*
+** MIXINS
+*/
+
+@mixin bg-cover {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+/*
+** THEME START
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font: 500 #{rem(20px)}/#{rem(30px)} $fontRoboto;
+  background-image: url("#{$path}/background.jpg");
+  @include bg-cover;
+}
+
+/*
+** MEDIA: max-width: 1200px (1199)
+*/
+
+@media (max-width: 74.94em) {}
+
+/*
+** MEDIA: max-width: 992px (991)
+*/
+
+@media (max-width: 61.94em) {}
+
+/*
+** MEDIA: max-width: 768px (767)
+*/
+
+@media (max-width: 47.94em) {}
+
+/*
+** MEDIA: max-width: 576px (575)
+*/
+
+@media (max-width: 35.94em) {}
