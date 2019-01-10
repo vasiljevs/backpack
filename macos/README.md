@@ -9,8 +9,6 @@
 + [__Magnet__](http://magnet.crowdcafe.com)
 + [__MySQL Workbench__](https://www.mysql.com/products/workbench)
 + [__Parcel__](https://parcelapp.net)
-+ [__Pritunl__](https://pritunl.com)
-+ [__Screaming Frog SEO Spider__](https://www.screamingfrog.co.uk/seo-spider)
 + [__Sequel Pro__](https://www.sequelpro.com)
 + [__Slack__](https://slack.com)
 + [__Spotify__](https://www.spotify.com)
