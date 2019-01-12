@@ -1,0 +1,22 @@
+{
+  "1": {
+    "prefix": "!rewrite",
+    "body": [
+      "* {",
+      "  margin: 0;",
+      "  padding: 0;",
+      "  box-sizing: border-box;",
+      "}"
+    ],
+    "description": "Rewrite Styling"
+  },
+  "2": {
+    "prefix": "!flex-vh",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: center;"
+    ],
+    "description": "Align the element vertically and horizontally center with flexbox"
+  }
+}
