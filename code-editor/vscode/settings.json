@@ -1,7 +1,6 @@
 {
-  "window.zoomLevel": 0,
   "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
@@ -9,11 +8,18 @@
   "editor.renderWhitespace": "all",
   "editor.detectIndentation": false,
   "editor.minimap.enabled": false,
-  "workbench.iconTheme": "vscode-great-icons",
+  "explorer.confirmDelete": false,
+  "files.encoding": "utf8",
   "git.enableSmartCommit": true,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "Courier New",
+  "git.ignoreMissingGitWarning": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
   "html.format.indentInnerHtml": true,
-  "terminal.integrated.fontWeight": "bold",
   "php.suggest.basic": false,
+  "terminal.integrated.fontFamily": "Courier New",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "bold",
+  "workbench.iconTheme": "vscode-great-icons",
+  "window.zoomLevel": 0.5
 }
